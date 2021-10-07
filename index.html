@@ -1,44 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Tip calculator app</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+	<title>Frontend Mentor | Tip calculator app</title>
+	<link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
+	<div class="site">
+		<header class="site-header">
+			<img src="./images/logo.svg" alt="Splitter - site logo" class="site-header__logo">
+		</header>
 
-  Bill
+		<main class="site-content">
+			<form class="form">
+				<div class="form__input-cnt">
+					<label for="bill" class="form__label">Bill</label>
+					<p class="form__label--warn">Can't be zero</p>
+					<input type="number" id="bill" class="form__input--number form__input--number--dollar"
+						placeholder="0" min="0.01">
+				</div>
 
-  Select Tip %
-  5%
-  10%
-  15%
-  25%
-  50%
-  Custom
+				<div>
+					<p class="form__label--options">Select Tip %</p>
+					<div class="form__options-cnt">
+						<div>
+							<input type="radio" id="tip1" value="5" name="tip" class="form__input--hidden">
+							<label for="tip1" class="form__label--as-btn">5%</label>
+						</div>
 
-  Number of People
+						<div>
+							<input type="radio" id="tip2" value="10" name="tip" class="form__input--hidden">
+							<label for="tip2" class="form__label--as-btn">10%</label>
+						</div>
 
-  Tip Amount
-  / person
+						<div>
+							<input type="radio" id="tip3" value="15" name="tip" class="form__input--hidden">
+							<label for="tip3" class="form__label--as-btn">15%</label>
+						</div>
 
-  Total
-  / person
+						<div>
+							<input type="radio" id="tip4" value="25" name="tip" class="form__input--hidden">
+							<label for="tip4" class="form__label--as-btn">25%</label>
+						</div>
 
-  Reset
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+						<div>
+							<input type="radio" id="tip5" value="50" name="tip" class="form__input--hidden">
+							<label for="tip5" class="form__label--as-btn">50%</label>
+						</div>
+
+						<input type="number" id="tip6" name="tip" class="form__input--number form__input--as-btn"
+							placeholder="Custom" min="0">
+					</div>
+				</div>
+
+				<div class="form__input-cnt">
+					<label for="people" class="form__label">Number of People</label>
+					<p class="form__label--warn">Can't be zero</p>
+					<input type="number" id="people" class="form__input--number--person" placeholder="0" min="1">
+				</div>
+			</form>
+
+			<div class="result-cnt">
+				<div class="result-cnt__row">
+					<div class="result-cnt__col">
+						<h3>Tip Amount</h3>
+						<p>/ person</p>
+					</div>
+					<h2 id="tip-result" class="result-cnt__sum">$0.00</h2>
+				</div>
+
+				<div class="result-cnt__row">
+					<div class="result-cnt__col">
+						<h3>Total</h3>
+						<p>/ person</p>
+					</div>
+					<h2 id="total-result" class="result-cnt__sum">$0.00</h2>
+				</div>
+
+				<button class="result-cnt__reset-btn" id="reset-form-btn" disabled>Reset</button>
+			</div>
+
+		</main>
+	</div>
+
+	<!-- <div class="attribution">
+		Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+		Coded by <a href="#">Kiwinicki</a>.
+	</div> -->
+	<script src="script.js" defer></script>
 </body>
+
 </html>
