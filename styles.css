@@ -75,6 +75,22 @@ body {
   cursor: pointer;
 }
 
+.form__input--number::-webkit-input-placeholder, .form__input--number--dollar::-webkit-input-placeholder, .form__input--number--person::-webkit-input-placeholder, .form__input--as-btn::-webkit-input-placeholder {
+  opacity: 0.75;
+}
+
+.form__input--number::-moz-placeholder, .form__input--number--dollar::-moz-placeholder, .form__input--number--person::-moz-placeholder, .form__input--as-btn::-moz-placeholder {
+  opacity: 0.75;
+}
+
+.form__input--number:-moz-placeholder, .form__input--number--dollar:-moz-placeholder, .form__input--number--person:-moz-placeholder, .form__input--as-btn:-moz-placeholder {
+  opacity: 0.75;
+}
+
+.form__input--number:-ms-input-placeholder, .form__input--number--dollar:-ms-input-placeholder, .form__input--number--person:-ms-input-placeholder, .form__input--as-btn:-ms-input-placeholder {
+  opacity: 0.75;
+}
+
 .form {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -116,22 +132,6 @@ body {
   font-size: 24px;
   font-weight: 700;
   text-align: right;
-}
-
-.form__input--number::-webkit-input-placeholder, .form__input--number--dollar::-webkit-input-placeholder, .form__input--number--person::-webkit-input-placeholder {
-  opacity: 0.75;
-}
-
-.form__input--number::-moz-placeholder, .form__input--number--dollar::-moz-placeholder, .form__input--number--person::-moz-placeholder {
-  opacity: 0.75;
-}
-
-.form__input--number:-moz-placeholder, .form__input--number--dollar:-moz-placeholder, .form__input--number--person:-moz-placeholder {
-  opacity: 0.75;
-}
-
-.form__input--number:-ms-input-placeholder, .form__input--number--dollar:-ms-input-placeholder, .form__input--number--person:-ms-input-placeholder {
-  opacity: 0.75;
 }
 
 .form__input--number:focus, .form__input--number--dollar:focus, .form__input--number--person:focus {
@@ -179,22 +179,18 @@ body {
 
 .form__input--as-btn::-webkit-input-placeholder {
   text-align: center;
-  opacity: 0.75;
 }
 
 .form__input--as-btn::-moz-placeholder {
   text-align: center;
-  opacity: 0.75;
 }
 
 .form__input--as-btn:-moz-placeholder {
   text-align: center;
-  opacity: 0.75;
 }
 
 .form__input--as-btn:-ms-input-placeholder {
   text-align: center;
-  opacity: 0.75;
 }
 
 .form__label, .form__label--options, .form__label--warn {

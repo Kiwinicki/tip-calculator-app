@@ -76,6 +76,21 @@ body {
 	cursor: pointer;
 }
 
+%placeholder-opacity {
+	&::-webkit-input-placeholder {
+		opacity: 0.75;
+	}
+	&::-moz-placeholder {
+		opacity: 0.75;
+	}
+	&:-moz-placeholder {
+		opacity: 0.75;
+	}
+	&:-ms-input-placeholder {
+		opacity: 0.75;
+	}
+}
+
 .form {
 	display: flex;
 	flex-direction: column;
@@ -94,7 +109,6 @@ body {
 		&--number {
 			width: 100%;
 			padding: 6px 6px 6px 38px;
-			// padding-left: 38px !important;
 			border: none;
 			border-radius: $border-rad;
 			background-color: $light-grayish-cyan2 !important; // do poprawy
@@ -103,18 +117,7 @@ body {
 			font-size: $input-font-size;
 			font-weight: 700;
 			text-align: right;
-			&::-webkit-input-placeholder {
-				opacity: 0.75;
-			}
-			&::-moz-placeholder {
-				opacity: 0.75;
-			}
-			&:-moz-placeholder {
-				opacity: 0.75;
-			}
-			&:-ms-input-placeholder {
-				opacity: 0.75;
-			}
+			@extend %placeholder-opacity;
 			&:focus {
 				outline-color: $primary-color-active;
 			}
@@ -152,21 +155,18 @@ body {
 			padding: 0 10px;
 			color: $dark-grayish-cyan;
 			text-align: right;
+			@extend %placeholder-opacity;
 			&::-webkit-input-placeholder {
 				text-align: center;
-				opacity: 0.75;
 			}
 			&::-moz-placeholder {
 				text-align: center;
-				opacity: 0.75;
 			}
 			&:-moz-placeholder {
 				text-align: center;
-				opacity: 0.75;
 			}
 			&:-ms-input-placeholder {
 				text-align: center;
-				opacity: 0.75;
 			}
 			@extend %as-btn;
 		}
