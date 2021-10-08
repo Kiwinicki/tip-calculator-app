@@ -22,7 +22,7 @@ Users should be able to:
 ### Screenshot
 
 ![desktop empty solution](./solution-screenshots/desktop-empty-slution.png)
-![desktop active solution](./solution-screenshots/desktop-active-slution.png)   
+![desktop active solution](./solution-screenshots/desktop-active-slution.png)  
 ![mobile empty solution](./solution-screenshots/mobile-empty-slution.png)
 
 ### Links
@@ -40,3 +40,4 @@ Users should be able to:
 ### What I learned
 
 - Dynamic inputs validation
+- Media queries
