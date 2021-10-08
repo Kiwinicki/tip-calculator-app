@@ -71,7 +71,7 @@ body {
 
 .site-content {
 	display: flex; // ok
-	padding: 1.75rem; // ok
+	padding: Min(4vw, 1.75rem); // ok?
 	border-radius: 1.5rem 1.5rem 0 0; // ok
 	background-color: $white; // ok
 	// flex-grow: 1;
@@ -217,7 +217,7 @@ body {
 
 .result-cnt {
 	// margin: 0 -10px;
-	padding: 2rem;
+	padding: Min(5vw, 2rem);
 	border-radius: 15px;
 	background-color: $very-dark-cyan;
 	color: $light-grayish-cyan2;
@@ -233,7 +233,7 @@ body {
 		min-width: max-content;
 		padding: 1rem 0; //ok
 		& h3 {
-			font-size: 1rem; //ok
+			font-size: 1em; //ok
 		}
 		& p {
 			color: $dark-grayish-cyan2; //ok
@@ -241,9 +241,9 @@ body {
 	}
 	&__sum {
 		// min-width: 0;
-		padding-left: 1rem; //ok
+		padding-left: Min(2vw, 1rem); //ok
 		color: $primary-color; //ok
-		font-size: 3rem; //ok
+		font-size: 3em; //ok
 		text-align: right; //ok
 		text-overflow: ellipsis; //ok
 		overflow: hidden; //ok
