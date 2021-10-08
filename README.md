@@ -21,9 +21,9 @@ Users should be able to:
 
 ### Screenshot
 
-[desktop empty solution](./solution-screenshots/desktop-empty-slution.png)
-[desktop active solution](./solution-screenshots/desktop-active-slution.png)   
-[mobile empty solution](./solution-screenshots/mobile-empty-slution.png)
+![desktop empty solution](https://github.com/Kiwinicki/tip-calculator-app/blob/main/solution-screenshots/desktop-empty-solution.png)
+![desktop active solution](https://github.com/Kiwinicki/tip-calculator-app/blob/main/solution-screenshots/desktop-active-solution.png)   
+![mobile empty solution](https://github.com/Kiwinicki/tip-calculator-app/blob/main/solution-screenshots/mobile-empty-solution.png)
 
 ### Links
 
