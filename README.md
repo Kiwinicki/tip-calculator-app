@@ -31,7 +31,6 @@ Users should be able to:
 - (mobile empty solution)
 
  ![mobile empty solution](https://github.com/Kiwinicki/tip-calculator-app/blob/main/solution-screenshots/mobile-empty-solution.png)
->>>>>>> cebed58bb4e050bb92314d64fa4e3a2437de3927
 
 ### Links
 

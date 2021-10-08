@@ -139,7 +139,7 @@ body {
   padding: 6px 6px 6px 38px;
   border: none;
   border-radius: 6px;
-  background-color: #f4fafa !important;
+  background-color: #f4fafa;
   color: #00494d;
   font-family: 'Space Mono', monospace;
   font-size: 1.5rem;
@@ -149,10 +149,6 @@ body {
 
 .form__input--number:focus, .form__input--number--dollar:focus, .form__input--number--person:focus {
   outline-color: #95eadf;
-}
-
-.form__input--number--warn {
-  border: 2px solid #ff5c5c !important;
 }
 
 .form__input--number--dollar {
@@ -182,6 +178,10 @@ body {
 .form__input--hidden:checked + .form__label--as-btn {
   background-color: #26c0ab;
   color: #00494d;
+}
+
+.form__input--warn {
+  border: 2px solid #ff5c5c !important;
 }
 
 .form__input--as-btn {
