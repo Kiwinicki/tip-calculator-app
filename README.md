@@ -21,9 +21,17 @@ Users should be able to:
 
 ### Screenshot
 
-![desktop empty solution](./solution-screenshots/desktop-empty-slution.png)
-![desktop active solution](./solution-screenshots/desktop-active-slution.png)  
-![mobile empty solution](./solution-screenshots/mobile-empty-slution.png)
+- (desktop empty solution)
+
+ ![desktop empty solution](https://github.com/Kiwinicki/tip-calculator-app/blob/main/solution-screenshots/desktop-empty-solution.png)
+
+- (desktop active solution)
+
+ ![desktop active solution](https://github.com/Kiwinicki/tip-calculator-app/blob/main/solution-screenshots/desktop-active-solution.png)   
+- (mobile empty solution)
+
+ ![mobile empty solution](https://github.com/Kiwinicki/tip-calculator-app/blob/main/solution-screenshots/mobile-empty-solution.png)
+>>>>>>> cebed58bb4e050bb92314d64fa4e3a2437de3927
 
 ### Links
 
@@ -35,6 +43,7 @@ Users should be able to:
 - Semantic HTML5 markup
 - SASS
 - Flexbox
+- Grid
 - Mobile-first workflow
 
 ### What I learned
