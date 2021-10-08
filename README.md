@@ -21,8 +21,11 @@ Users should be able to:
 
 ### Screenshot
 
+(desktop empty solution)
 ![desktop empty solution](https://github.com/Kiwinicki/tip-calculator-app/blob/main/solution-screenshots/desktop-empty-solution.png)
+(desktop active solution)
 ![desktop active solution](https://github.com/Kiwinicki/tip-calculator-app/blob/main/solution-screenshots/desktop-active-solution.png)   
+(mobile empty solution)
 ![mobile empty solution](https://github.com/Kiwinicki/tip-calculator-app/blob/main/solution-screenshots/mobile-empty-solution.png)
 
 ### Links
