@@ -117,7 +117,7 @@ body {
 		&--number {
 			width: 100%;
 			padding: 6px 6px 6px 38px;
-			border: none;
+			border: 2px solid transparent;
 			border-radius: $border-rad;
 			background-color: $light-grayish-cyan2;
 			color: $very-dark-cyan;
