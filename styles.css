@@ -152,13 +152,13 @@ body {
 }
 
 .form__input--number--dollar {
-  background: url("/images/icon-dollar.svg");
+  background-image: url("/images/icon-dollar.svg");
   background-repeat: no-repeat;
   background-position: 20px;
 }
 
 .form__input--number--person {
-  background: url("/images/icon-person.svg");
+  background-image: url("/images/icon-person.svg");
   background-repeat: no-repeat;
   background-position: 20px;
 }
